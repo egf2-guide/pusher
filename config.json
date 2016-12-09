@@ -5,12 +5,12 @@
   "log_level": "info",
   "client-data": "http://localhost:8000",
   "auth": "http://127.0.0.1:2016",
-  "template_host": "",
+  "template_host": "https://guide.eigengraph.com",
   "ignored_domains": [],
   "queue": "rethinkdb",
   "consumer-group": "pusher",
   "rethinkdb": {
-    "db": "eigengraph",
+    "db": "guide",
     "table": "events",
     "offsettable": "event_offset"
   }
