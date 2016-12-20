@@ -6,7 +6,7 @@
   "client-data": "http://localhost:8000",
   "auth": "http://127.0.0.1:2016",
   "template_host": "https://guide.eigengraph.com",
-  "ignored_domains": [],
+  "ignored_domains": ["test.com"],
   "queue": "rethinkdb",
   "consumer-group": "pusher",
   "rethinkdb": {
